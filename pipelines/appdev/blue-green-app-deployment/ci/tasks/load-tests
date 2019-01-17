@@ -9,6 +9,8 @@ npm install -g artillery
 export NEXT_APP_COLOR=$(cat ./current-app-info/next-app.txt)
 export NEXT_APP_URL=http://$NEXT_APP_COLOR-$PWS_APP_SUFFIX.$PWS_APP_DOMAIN/
 
-echo "Running artillery load tests..."
+echo "Not Running artillery load tests..."
 
-artillery quick --duration 10 --rate 10 $NEXT_APP_URL
+# artillery quick --duration 10 --rate 10 $NEXT_APP_URL
+
+cf apps | grep -i ss-app-hello
