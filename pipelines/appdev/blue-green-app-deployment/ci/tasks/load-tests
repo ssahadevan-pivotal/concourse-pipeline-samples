@@ -13,4 +13,4 @@ echo "Not Running artillery load tests..."
 
 # artillery quick --duration 10 --rate 10 $NEXT_APP_URL
 
-cf apps | grep -i ss-app-hello
+echo "Done"
