@@ -94,3 +94,6 @@ You will then notice the pipeline's jobs getting executed within a few seconds, 
 - [Concourse pipelines with a local Docker Registry](https://github.com/pivotalservices/concourse-pipeline-samples/tree/master/private-docker-registry)
 
 - [Deploying a Private Docker Registry with Bosh](https://github.com/pivotalservices/concourse-pipeline-samples/tree/master/private-docker-registry/docker-registry-release)
+
+
+-- Forked by Sharath
