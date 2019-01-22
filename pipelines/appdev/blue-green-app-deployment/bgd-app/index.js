@@ -34,7 +34,7 @@ app.all('*', function(req, res) {   // serve all other requests
   res.write("<h1><br><br><br>&nbsp;&nbsp;Blue-Green deployments</h1><hr>");
   res.write("<p><img src='./images/"+icon_name+"'></p>");
   res.write("<hr>");
-  res.write("<p><b>Application name:</b> "+ app_obj.application_name+"</p>");
+  res.write("<p><b>Application name is:</b> "+ app_obj.application_name+"</p>");
   res.write("<p><b>Application version:</b> "+ app_obj.application_version+"</p>");
   res.write("<p><b>Application URIs:</b> "+ app_obj.application_uris+"</p>");
   res.write("<hr><p><b>VCAP_APPLICATION:</b> "+ JSON.stringify(app_obj,null,'\t')+"</p>");
